@@ -20,7 +20,7 @@ outpath = "GAIN1.png"
 plt.savefig(outpath, dpi=200, bbox_inches='tight')
 plt.show()
 
-# Plot (H)
+# Plot (a)
 plt.figure(figsize=(8, 6))
 plt.plot(GAIN_df['a(cm)'], GAIN_df['Gain'], 'o-', color='red', label='Le Gain')
 
